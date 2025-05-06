@@ -1,5 +1,5 @@
 {
-  "name": "AXT-AyaKoto_cloudflare-worker-static-test",
+  "name": "AXT-AyaKoto-cloudflare-worker-static-test",
   "compatibility_date": "2025-05-06",
   "assets": {
     "directory": "./"
