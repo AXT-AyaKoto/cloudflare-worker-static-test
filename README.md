@@ -1,0 +1,2 @@
+# cloudflare-worker-static-test
+Cloudflare Workerで素のHTMLを配信する方法を検証するためだけのリポジトリ
