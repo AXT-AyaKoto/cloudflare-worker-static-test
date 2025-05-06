@@ -1,3 +1,2 @@
 wrangler.jsonc
-.assetsignore
-.git/
+/.*
