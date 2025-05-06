@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudflare Workersで素のHTMLを公開するテスト</title>
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            const now = new Date();
+            const formattedTime = now.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            document.querySelector('p span').textContent = formattedTime;
+        });
+    </script>
+</head>
+
+<body>
+    <p>現在時刻 …… <span></span></p>
+</body>
+
+</html>
